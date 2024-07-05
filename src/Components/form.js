@@ -31,7 +31,7 @@ export default function ReferralForm() {
     console.log(data);
   
     try {
-      const response = await fetch('http://localhost:3001/api/referral', {
+      const response = await fetch('https://accredian-backend-task-2nyy.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
