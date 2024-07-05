@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.TabContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
